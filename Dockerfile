@@ -11,10 +11,10 @@ WORKDIR $APP_HOME
 COPY . .
 
 # Instalujemy zależności wewnątrz kontenera
-RUN pip install -e .
+RUN pip install .
 
 # Oznaczamy port, na którym aplikacja działa wewnątrz kontenera
 EXPOSE 8000
 
 # Uruchomiamy naszą aplikację wewnątrz kontenera
-ENTRYPOINT ["personal-assistant"]
+ENTRYPOINT ["python", "address_book/main.py"]

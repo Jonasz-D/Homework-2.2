@@ -1,4 +1,4 @@
-from .functions import *
+from functions import *
 
 class FacadeHandler:
     def __init__(self, commands):

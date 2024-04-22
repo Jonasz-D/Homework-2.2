@@ -13,4 +13,3 @@ address_book/functions.py
 address_book/handler.py
 address_book/main.py
 address_book/notebook_module.py
-address_book/sorting_module.py

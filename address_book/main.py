@@ -1,6 +1,6 @@
 # from .files_utilities import *
-from .handler import facade_handler
-from .functions import send_msg, input_value
+from handler import facade_handler
+from functions import send_msg, input_value
 
 LOGO = """
 @@@ @@@ @@@  @@@ @@@ @@@  @@@ @@@ @@@  @@@  @@@ @@@ @@@  @@@ @@@ @@@  @@@ @@@ @@@  @@@     @@@  @@@ @@@ @@@ 

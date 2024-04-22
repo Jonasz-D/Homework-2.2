@@ -1,6 +1,6 @@
-from .addressbook_module import *
-from .files_utilities import *
-from .sorting_module import main_sorting_folder
+from addressbook_module import *
+from files_utilities import *
+# from .sorting_module import main_sorting_folder
 from datetime import datetime
 import pickle
 import os

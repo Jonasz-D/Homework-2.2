@@ -1,5 +1,5 @@
 import pickle
-from .addressbook_module import AddressBook
+from addressbook_module import AddressBook
 import json
 import os
 
